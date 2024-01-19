@@ -44,10 +44,6 @@
     background-color: var(--discord-primary);
 }
 
-main {
-    background-color: var(--discord-primary);
-}
-
 footer {
     background-color: rgb(31, 30, 30);
     padding: 5px 12%;
@@ -122,6 +118,14 @@ li {
 .browser_btn {
     background-color: var(--discord-dark);
     color: var(--discord-lighter);
+}
+
+.meet {
+    /*  background-image: url(../img/wave.svg); */
+}
+
+section{
+    align-items: center;
 }
 
 .main-center {
