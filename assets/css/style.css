@@ -122,10 +122,16 @@ li {
 
 .meet {
     /*  background-image: url(../img/wave.svg); */
+    background-color: lightgray;
 }
 
-section{
+section {
     align-items: center;
+    text-align: justify-all;
+}
+
+.bot_main {
+    text-align: center;
 }
 
 .main-center {
@@ -134,40 +140,12 @@ section{
     padding: 3% 12%;
 }
 
-.main-center-content-left {
-    background-color: pink;
-    border: 1px dashed black;
-    flex-grow: 1;
-    height: 10rem;
-}
-
-.main-center-content-right {
-    background-color: rgba(42, 145, 214, 0.822);
-    border: 1px dashed black;
-    flex-grow: 2;
-}
-
-
-.main-center-reverse {
-    background-color: white;
-    display: flex;
-    padding: 3% 12%;
-    background-color: lightgray;
-    flex-flow: row-reverse;
-}
-
-.bottom-main {
-    display: flex;
-    padding: 2% 12%;
-    justify-content: center;
-    background-color: lightgray;
-}
-
-.bottom-main-content {
-    background-color: green;
-    border: 1px dashed black;
-    height: 12rem;
-    width: 100%
+.btn_mac_bot {
+    background-color: var(--discord-primary);
+    opacity: 0.7;
+    color: var(--discord-lighter);
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 /* #endregion Main */
