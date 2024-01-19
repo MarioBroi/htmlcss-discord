@@ -124,8 +124,7 @@ li {
 }
 
 .meet {
-    /* background-image: url(../img/wave.svg); */
-    background-color: lightgray;
+    background-color: var(--discord-light);
 }
 
 .bot_main {
@@ -146,10 +145,13 @@ li {
     margin-bottom: 4rem;
 }
 
-/* .filter_grey {
-    background-image: url(../img/wave.svg);
-    filter: invert(100%) sepia(5%) saturate(140%) hue-rotate(50deg) brightness(116%) contrast(93%);
-} */
+.svg_grey{
+    color: var(--discord-light) ;
+}
+
+.reverse{
+
+}
 
 /* #endregion Main */
 
