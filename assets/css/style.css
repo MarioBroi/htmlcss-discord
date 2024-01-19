@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -78,11 +79,14 @@ li {
 }
 
 .login {
-    flex-grow: -1;
+    flex-grow: 1;
     text-align: end;
+}
+
+button {
     background-color: var(--discord-lighter);
     border-radius: 0.7rem;
-    padding: 0.2rem;
+    padding: 0.35rem;
     color: var(--discord-primary);
 }
 
@@ -90,13 +94,12 @@ li {
 
 /* #region Main */
 
-.top-main {
-    display: flex;
-    align-items: center;
+.top_main {
+    background-image: url(../img/jumbo.png);
 }
 
 .top-main-content {
-    background-color: plum;
+
     border: 1px dashed black;
     height: 12rem;
     width: 80%;
