@@ -1,27 +1,51 @@
 /* #region Common */
 
-/* root{
-
-}*/
-
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: aqua;
+:root {
+    --discord-primary: rgba(48, 97, 225, 1);
+    --discord-dark: rgba(34, 39, 43, 1);
+    --discord-light: rgba(246, 246, 246, 1);
+    --discord-lighter: white;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.site_header {
+    background-color: var(--discord-primary);
 }
 
 main {
-    background-color: blue;
+    background-color: var(--discord-primary);
 }
 
-footer{
+footer {
     background-color: rgb(31, 30, 30);
     padding: 5px 12%;
 }
 
-hr{
+hr {
     color: beige;
     margin: 1em -16%;
 }
@@ -31,70 +55,74 @@ hr{
 /* #region Header */
 
 
-.top-header{
+nav {
     display: flex;
-    padding: 0.5rem 3rem;
-    justify-content:center;
+    align-items: center;
+    padding: 1rem;
 }
 
-.logo{
-    border: 1px dashed black;
-    background-color: orange;
-    padding: 0.2rem 3rem 0.2rem 0.2rem;
-    align-self: flex-start;
+.logo {
+    flex-grow: 1;
 }
 
-.link{
-    border: 1px dashed black;
-    background-color: orange;
-    padding: 0.1rem 3rem;
+.main_menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--discord-lighter);
 }
 
-.login{
-    border: 1px dashed black;
-    background-color: orange;
-    padding: 0.2rem 0.2rem 0.2rem 3rem;
-    align-self: flex-end;
+li {
+    padding: 0.25rem 0.75rem;
+}
+
+.login {
+    flex-grow: -1;
+    text-align: end;
+    background-color: var(--discord-lighter);
+    border-radius: 0.7rem;
+    padding: 0.2rem;
+    color: var(--discord-primary);
 }
 
 /* #endregion Header */
 
 /* #region Main */
 
-.top-main{
+.top-main {
     display: flex;
-    padding: 3% 10%;
-    justify-content: center;
+    align-items: center;
 }
 
-.top-main-content{
+.top-main-content {
     background-color: plum;
     border: 1px dashed black;
     height: 12rem;
     width: 80%;
 }
 
-.main-center{
+.main-center {
     background-color: white;
     display: flex;
     padding: 3% 12%;
 }
 
-.main-center-content-left{
+.main-center-content-left {
     background-color: pink;
     border: 1px dashed black;
     flex-grow: 1;
     height: 10rem;
 }
 
-.main-center-content-right{
+.main-center-content-right {
     background-color: rgba(42, 145, 214, 0.822);
     border: 1px dashed black;
     flex-grow: 2;
 }
 
 
-.main-center-reverse{
+.main-center-reverse {
     background-color: white;
     display: flex;
     padding: 3% 12%;
@@ -102,14 +130,14 @@ hr{
     flex-flow: row-reverse;
 }
 
-.bottom-main{
+.bottom-main {
     display: flex;
     padding: 2% 12%;
     justify-content: center;
     background-color: lightgray;
 }
 
-.bottom-main-content{
+.bottom-main-content {
     background-color: green;
     border: 1px dashed black;
     height: 12rem;
@@ -120,44 +148,44 @@ hr{
 
 /* #region Footer */
 
-.footer-content{
+.footer-content {
     display: flex;
     justify-content: center;
 }
 
-.footer-pink{
+.footer-pink {
     background-color: pink;
     border: 1px dashed black;
     flex-grow: 2;
 }
 
-.footer-acqua{
+.footer-acqua {
     background-color: aqua;
     border: 1px dashed white;
     flex-grow: 1;
     height: 10rem;
 }
 
-.footer-logo{
+.footer-logo {
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     padding: 0p 12%;
 }
 
-.logo-bot{
+.logo-bot {
     background-color: pink;
     border: 1px dashed black;
     margin: 1rem 0;
 }
 
-.btn{
-    background-color: pink ;
+.btn {
+    background-color: pink;
     border: 1px dashed black;
     margin: 1rem 0;
 }
 
-.horizontal-rule{
+.horizontal-rule {
     background-color: white;
     padding: 1px;
     margin: 1em -16%;
