@@ -19,6 +19,9 @@
     max-width: 1200px;
     margin: auto;
     height: 100%;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
 }
 
 .container_top {
@@ -34,10 +37,12 @@
 
 .col-60 {
     width: 60%;
+    text-align: center;
 }
 
 .col-40 {
     width: 40%;
+    text-align: center;
 }
 
 .site_header {
@@ -119,13 +124,8 @@ li {
 }
 
 .meet {
-    /*  background-image: url(../img/wave.svg); */
+    /* background-image: url(../img/wave.svg); */
     background-color: lightgray;
-}
-
-section {
-    align-items: center;
-    text-align: justify-all;
 }
 
 .bot_main {
