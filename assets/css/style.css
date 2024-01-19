@@ -19,7 +19,7 @@
     max-width: 1200px;
     margin: auto;
     height: 100%;
-    flex-direction: row ;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -51,10 +51,6 @@
 
 footer {
     background-color: var(--discord-dark);
-}
-
-hr {
-    color: beige;
 }
 
 button {
@@ -123,12 +119,13 @@ li {
     color: var(--discord-lighter);
 }
 
-.meet {
+.g_light {
     background-color: var(--discord-light);
 }
 
 .bot_main {
     text-align: center;
+    background-color: var(--discord-light);
 }
 
 .main-center {
@@ -145,17 +142,22 @@ li {
     margin-bottom: 4rem;
 }
 
-.svg_grey{
-    color: var(--discord-light) ;
+.svg_grey {
+    color: var(--discord-light);
 }
 
-.reverse{
-
+.reverse {
+    transform: rotate(3.142rad);
 }
 
 /* #endregion Main */
 
 /* #region Footer */
+
+.align_start {
+    align-items: flex-start;
+    padding: 1rem;
+}
 
 .footer-big {
     flex-grow: 2;
@@ -203,6 +205,14 @@ li {
 hr {
     border-color: var(--discord-primary);
     opacity: 0.7;
+}
+
+.img_size {
+    height: 1rem;
+}
+
+span {
+    margin-top: 0.5rem;
 }
 
 /* #endregion Footer */

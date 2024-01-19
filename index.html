@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
     <header class="site_header">
 
-        <nav class="containter">
+        <nav class="container">
 
             <div class="logo">
                 <img src="./assets/img/logo.svg" alt="">
@@ -101,7 +102,7 @@
         </section>
         <!-- /invite -->
 
-        <div>
+        <div class="d_flex">
 
             <svg class="wave-1hkxOo svg_grey" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"
                 preserveAspectRatio="none">
@@ -113,7 +114,7 @@
         </div>
         <!-- /svg -->
 
-        <section class="meet">
+        <section class="g_light">
 
             <div class="container d_flex">
 
@@ -137,9 +138,10 @@
         </section>
         <!-- /meet -->
 
-        <div class="d_flex reverse">
-            <svg class="wave-1hkxOo svg_grey reverse" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"
-                preserveAspectRatio="none">
+        <div class="d_flex">
+
+            <svg class="wave-1hkxOo svg_grey reverse" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 100" preserveAspectRatio="none">
                 <path class="wavePath-haxJK1 animationPaused-2hZ4IO"
                     d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z"
                     fill="currentColor"></path>
@@ -174,29 +176,48 @@
         </section>
         <!-- /fandom -->
 
-        <div class="container">
+        <div class="d_flex">
 
-            <div class="bot_main">
+            <svg class="wave-1hkxOo svg_grey" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"
+                preserveAspectRatio="none">
+                <path class="wavePath-haxJK1 animationPaused-2hZ4IO"
+                    d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z"
+                    fill="currentColor"></path>
+            </svg>
 
-                <h1>
-                    Tecnologia affidabile per tenersi in contatto
-                </h1>
+        </div>
+        <!-- /svg -->
 
-                <p>
-                    Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao
-                    in video, guardagli amici giocare in streaming, o riunitevi in una sessione di disegno con la
-                    condivisione schermo.
-                </p>
 
-                <img src="./assets/img/item4-big.svg" alt="">
+        <div class="g_light">
 
-                <h2 class="bg_stars">
-                    Pronto a iniziare la tua avventura?
-                </h2>
 
-                <button class="btn_mac_bot">
-                    <strong>&#11015; Scarica per Mac</strong>
-                </button>
+            <div class="container d_flex">
+
+                <div class="bot_main ">
+
+                    <h1>
+                        Tecnologia affidabile per tenersi in contatto
+                    </h1>
+
+                    <p>
+                        Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai
+                        ciao
+                        in video, guardagli amici giocare in streaming, o riunitevi in una sessione di disegno con la
+                        condivisione schermo.
+                    </p>
+
+                    <img src="./assets/img/item4-big.svg" alt="">
+
+                    <h2 class="bg_stars">
+                        Pronto a iniziare la tua avventura?
+                    </h2>
+
+                    <button class="btn_mac_bot">
+                        <strong>&#11015; Scarica per Mac</strong>
+                    </button>
+
+                </div>
 
             </div>
 
@@ -208,7 +229,7 @@
 
     <footer class="site_footer">
 
-        <div class="container d_flex">
+        <div class="container d_flex align_start">
 
             <div class="footer-big">
 
@@ -216,11 +237,17 @@
                     Il tuo posto per parlare
                 </h2>
 
-                <p class="flag">
-                    <img src="./assets/img/ita.png" alt="">
-                    Italiano &Downarrow;
+                <div class="flag d_flex">
 
-                </p>
+                    <span>
+                        <img src="./assets/img/ita.png" class="img_size" alt="">
+                    </span>
+
+                    <span>
+                        Italiano <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+
+                </div>
 
             </div>
             <!-- /footer-big -->
@@ -266,7 +293,7 @@
                 <ul>
 
                     <li>
-                        <h3 class="h_color">Risorse</h3>
+                        <h4 class="h_color">Risorse</h4>
                     </li>
 
                     <li>Scarica</li>
@@ -309,7 +336,7 @@
         <hr>
         <!-- /horizontal rule -->
 
-        <div class=" container d_flex footer-logo">
+        <div class="container d_flex footer-logo">
 
             <img src="./assets/img/logo.svg" alt="">
 
