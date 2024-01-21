@@ -151,6 +151,17 @@ li {
     transform: rotate(3.142rad);
 }
 
+.stars{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .bg_stars{
+  background-image: url(../img/stars.svg);
+  background-size: cover;
+} */
+
 /* #endregion Main */
 
 /* #region Footer */
