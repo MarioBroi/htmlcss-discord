@@ -144,6 +144,7 @@ li {
 
 .svg_grey {
     color: var(--discord-light);
+    width: fit-content;
 }
 
 .reverse {
@@ -169,10 +170,6 @@ li {
     opacity: 0.8;
 }
 
-.flag {
-    height: 10px;
-    width: 10px;
-}
 
 .footer-column {
     flex-grow: 1;
@@ -213,6 +210,15 @@ hr {
 
 span {
     margin-top: 0.5rem;
+}
+
+.fa {
+    padding: 0.5rem 0.5rem;
+    color: var(--discord-lighter);
+}
+
+.column {
+    flex-direction: column;
 }
 
 /* #endregion Footer */
